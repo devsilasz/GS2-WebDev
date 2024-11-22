@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.section {
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f1f1f1;
+  background-color: #121212;
+}
+.section .conteudo {
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.esquerda {
+  background-color: #0a1f34;
+  justify-content: flex-start;
+}
+.esquerda .conteudo {
+  text-align: left;
+}
+
+.direita {
+  background-color: #1e3a55;
+  justify-content: flex-end;
+}
+.direita .conteudo {
+  text-align: right;
+}
+
+.btn-primaria {
+  background-color: #3a73a8;
+  color: #f1f1f1;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.btn-primaria:hover {
+  background-color: #1e3a55;
+}
+
+.rounded-custom {
+  border: 8px solid #b0c4de;
+  border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+
+.rounded-custom-carousel {
+  border: 8px solid #b0c4de;
+}
+
+.image-hero {
+  margin-top: 2%;
+}
+
+.modal-title {
+  color: black;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: #003366; 
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white !important; 
+}
+
+.navbar .navbar-toggler-icon {
+  background-color: white;
+}
+
+footer {
+  background-color: #2c3e50; 
+  color: white;
+}
+
+footer a {
+  color: #ecf0f1; 
+}
+
+footer a:hover {
+  color: #3498db; 
+}
+
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section .conteudo {
+    text-align: center;
+    max-width: 100%;
+  }
+  .section .carousel-control-prev, .section .carousel-control-next {
+    z-index: 2;
+  }
+}
