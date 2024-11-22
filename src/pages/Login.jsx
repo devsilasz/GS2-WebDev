@@ -12,7 +12,7 @@ const Login = () => {
     if (nome.trim()) {
       localStorage.setItem('nome', nome);
       setMessage('Login bem-sucedido');
-      navigate(`/home/${nome}`); // Navega diretamente para /home/{nome}
+      navigate(`/home/${nome}`); 
     }
   };
 

@@ -12,7 +12,7 @@ function Home() {
   const isLoggedIn = localStorage.getItem('nome');
 
   if (!isLoggedIn) {
-    navigate('/login');
+    navigate('/');
     return null; 
   }
 

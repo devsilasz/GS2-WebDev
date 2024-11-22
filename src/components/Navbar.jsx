@@ -22,16 +22,16 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="menuNavegacao">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link className="nav-link" to="/#hero">Início</Link>
+            <Link className="nav-link" to="#">Início</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/#tipos-energia">Tipos de Energia</Link>
+            <Link className="nav-link" to="#">Tipos de Energia</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/#beneficios">Benefícios</Link>
+            <Link className="nav-link" to="#">Benefícios</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contato" target="_blank">Contato</Link>
+            <Link className="nav-link" to="#">Contato</Link>
           </li>
         </ul>
       </div>
